@@ -14,4 +14,4 @@ if (lang !== "") {
 lang = "-" + lang;
 }
 var downloadObj;
-Ext.Loader.loadScriptsSync("resources/locales/appname" + lang+".js");
+Ext.Loader.loadScriptsSync("resources/locales/Myapp-" + lang+".js");
